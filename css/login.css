@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: block;
+    background: #eee;
+    color: #666;
+    font-family: 微软雅黑;
+    font-size: .14rem;
+}
+a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.wrapper{
+    min-height: 100%;
+    height: 400px;
+}
+
+/***** 二维码 *****/
+.ercode{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+
+    right: 0;
+    top: 0;
+    background: url("../image/ercode_hover.png");
+}
+
+/********************* 主内容 ***********************/
+.layout{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    /*背景色不用注释*/
+    /*background-color: lavender;*/
+}
+
+/******* 头部 ******/
+.lgn-head{
+    padding: 40px 0 22px;
+}
+.logo-pic{
+    width: 49px;
+    height: 48px;
+    display: block;
+    margin: 0 auto 22px;
+    background-color: #EF5B00;
+}
+.logo-pic img{
+    width: 41px;
+    height: 40px;
+    margin: 4px;
+}
+.logo-title p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/******* 登录表单 ******/
+.labelbox{
+    height: 35px;
+    display: block;
+    padding: 0 10px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(11,3,5,0.1);
+}
+.lgn-user{
+    margin-bottom: 1px;
+    border-radius: 16px 16px 0 0;
+    -webkit-box-align: center;
+}
+.lgn-pwd{
+    position: relative;
+    margin-bottom: 1px;
+    border-radius: 0 0 16px 16px;
+    -webkit-box-align: center;
+}
+.labelbox input{
+    width: 100%;
+    display: block;
+    padding: 7px 0;
+    line-height: normal;
+
+    font-family: 幼圆;
+    font-size: 16px;
+    color: #333;
+    border: 0 none;
+}
+.lgn-pwd img{
+    width: 28px;
+    height: 23px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    display: block;
+    z-index: 2;
+}
+
+.lgn-btn{
+    padding-top: 44px;
+    padding-bottom: 15px;
+}
+.lgn-btn #submit{
+    width: 100%;
+    display: block;
+    margin-bottom: 14px;
+    padding: 10px 0;
+
+    text-align: center;
+    font-family: 微软雅黑;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgba(186,186,186,0.3);
+    background-color: #33b4ff;
+}
+
+/******* 其他登录方式 ******/
+.oth-type-tit{
+    border-top: 1px dashed #bdbdbd;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    /*padding-top: 10px;*/
+}
+.oth-type-txt{
+    font-size: 14px;
+    color: #b0b0b0;
+    text-align: center;
+    display: block;
+}
+
+.oth-type-links{
+    padding-top: 10px;
+    text-align: center;
+    display: block;-webkit-box-pack: center;
+}
+.icon-type{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 50%;
+}
+.lgn-icon{
+    width: 39px;
+    height: 29px;
+    display: block;
+    margin: 8px auto 0;
+    background: url("../image/iconstype_wap.png");
+    background-size: auto 29px;
+}
+.btn-qq{
+    background-color: #0288d1;
+}
+.lgn-icon-qq{
+    background-position: 0 0;
+}
+.btn-weibo{
+    background-color: #d32f2f;
+}
+.lgn-icon-weibo{
+    background-position: -39px 0;
+}
+.btn-alipay{
+    background-color: #0ae;
+}
+.lgn-icon-alipay{
+    background-position: -78px 0;
+}
+.btn-wechat{
+    background-color: #119D68;
+}
+.lgn-icon-wechat{
+    background-position: -117px 0;
+}
+
+.n-links{
+    padding: 30px 0 10px;
+    text-align: center;
+    color: #e0e0e0;
+}
+.n-links a{
+    padding: 0 9px;
+    font-size: 14px;
+    color: #757575;
+}
+
+
+/********************* footer ***********************/
+footer{
+    display: block;
+    margin: 0 auto 10px;
+    text-align: center;
+    color: #757575;
+    line-height: 14px;
+    font-size: 14px;
+}
+footer ul{
+    height: 0;
+    display: block;
+    content: "";
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.lan-list li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.lan-list a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #757575;
+}
+.lan-list a.current{
+    color: #333;
+}
+
+
+.ft-info{
+    padding: 10px;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最新特价</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <!--<link rel="icon" href="../image/icon-logo.png/"/>-->
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/sale.css"/>
+    <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/angular.min.js" type="text/javascript"></script>
+    <script src="../js/angular-route.min.js" type="text/javascript"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/sale.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <div class="head-wrap">
+        <a href="index.html" class="goback"><</a>
+        <a href="#" class="h-logo">最新特价</a>
+
+        <div class="h-act">
+            <div class="h-menu" ng-controller="menuCtrl">
+                <a href="#" class="icon a-quicknav"></a>
+            </div>
+            <div class="h-search" ng-controller="searchCtrl">
+                <a href="#" class="icon a-search"></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--图书列表展示-->
+<div class="category-list">
+    <ul class="list-col1">
+        <li class="book-item">
+            <a href="sale-item.html" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+        <li class="book-item">
+            <a href="#" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+        <li class="book-item">
+            <a href="#" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+
+        <li class="book-item">
+            <a href="#" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+        <li class="book-item">
+            <a href="#" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+        <li class="book-item">
+            <a href="#" class="book">
+                <img class="book-pic" src="../image/sale1-1.jpg!s" alt="蚕"/>
+
+                <div class="book-info">
+                    <h3 class="title">蚕（J.K.罗琳作品）</h3>
+
+                    <p class="author">【英】罗伯特·加尔布雷思</p>
+
+                    <p class="summary">“哈利·波特”系列作者J.K.罗琳，斯特莱克推理系列第二部！</p>
+                </div>
+                <div class="book-price">
+                    <em>¥ 4.99 </em>
+                    <del>¥ 18.00</del>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+    <!-- 页码-->
+    <div class="u-page">
+        <a href="#" class="u-btn init">上一页</a>
+        <span class="num">第1/100页</span>
+        <a href="#" class="u-btn">下一页</a>
+    </div>
+</div>
+
+<!--footer-->
+<footer class="ft">
+    <div class="f-wrap">
+        <p>
+            <a href="#">多看客户端</a>
+            <span>｜</span>
+            <a href="#">电脑版</a>
+        </p>
+
+        <p>Copyright©duokan.com</p>
+    </div>
+</footer>
+
+
+<!--导航盖层-->
+<div class="navct-wrap">
+    <nav class="navct">
+        <table>
+            <tr>
+                <td>
+                    <a href="../html/sale.html" class="sale"><em></em></a>
+                    特价
+                </td>
+                <td>
+                    <a href="#" class="free"><em></em></a>
+                    免费
+                </td>
+                <td>
+                    <a href="#" class="good"><em></em></a>
+                    畅销
+                </td>
+                <td>
+                    <a href="#" class="bookshelf"><em></em></a>
+                    书架
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#" class="category"><em></em></a>
+                    分类
+                </td>
+                <td>
+                    <a href="#" class="redeem"><em></em></a>
+                    兑换码
+                </td>
+                <td>
+                    <a href="#" class="buy"><em></em></a>
+                    购物券
+                </td>
+                <td>
+                    <a href="#" class="down"><em></em></a>
+                    客户端
+                </td>
+            </tr>
+        </table>
+    </nav>
+</div>
+
+
+<!--搜索盖层-->
+<div class="search-form">
+    <a href="#" class="close">
+        <i class="icon-close"></i>
+    </a>
+
+    <div class="form">
+        <input type="text" class="search-input" placeholder="输入书名或作者..."/>
+        <a href="#" class="icon-search"></a>
+    </div>
+
+    <div class="hotsearch">
+        <h4><p>大家都在搜...</p></h4>
+        <ul class="list-col1">
+            <li><a href="#">从你的全世界路过</a></li>
+            <li><a href="#">微微一笑很倾城</a></li>
+            <li><a href="#">如果蜗牛有爱情</a></li>
+
+            <li><a href="#">我不喜欢这世界，我只喜欢还你</a></li>
+            <li><a href="#">岛上书店</a></li>
+            <li><a href="#">假如爱有天意</a></li>
+            <li><a href="#">飞屋环游记</a></li>
+        </ul>
+    </div>
+
+    <div class="search-ft">
+        <p>
+            <a href="#">多看客户端</a>
+            <span>｜</span>
+            <a href="#">电脑版</a>
+        </p>
+        <p>Copyright©duokan.com</p>
+    </div>
+
+</div>
+
+</body>
+<!--<script src="../controller/head.js"></script>
+<script src="../controller/route.js"></script>
+<script src="../module/routeModule.js"></script>-->
+</html>

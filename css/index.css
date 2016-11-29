@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+/******************** 头部 ********************/
+.head-wrap .h-logo{
+    height: 35px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 10px 13px;
+
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.h-login{
+    width: 50px;
+    height: 56px;
+    position: relative;
+    box-sizing: border-box;
+    padding:15px 0;
+    float: left;
+
+    line-height: 56px;
+
+}
+.h-login:after{
+    width: 0px;
+    height: 45px;
+    position: absolute;
+    content: "";
+    top: 5px;
+    right: 0;
+    border-right: 1px solid #fff;
+}
+.h-login .a-login{
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    background-position: 0 -1px;
+}
+
+/******************** 导航 ********************/
+.navct{
+    width: 100%;
+    height: 219px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 0 20px;
+
+}
+.navct table{
+    width: 100%;
+}
+.navct td{
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}
+.navct td a{
+    width: 56px;
+    height: 45px;
+    display: block;
+
+    margin: 0 auto;
+    padding: 11px 0  0;
+    border-radius: 10px;
+}
+.navct em{
+    width: 34px;
+    height: 34px;
+    display: block;
+
+    margin: 0 auto;
+    background: url("../image/icon-nav.png") no-repeat;
+    background-size: 34px;
+}
+.navct .sale{
+    background-color: #ef4848;
+}
+.navct .sale em{
+    background-position: 0 -102px;
+}
+.navct .free{
+    background-color: #f7942b;
+}
+.navct .free em{
+    background-position: 0 -34px;
+}
+.navct .good{
+    background-color: #2ec8e4;
+}
+.navct .good em{
+    background-position: 0 -68px;
+}
+.navct .bookshelf{
+    background-color: #30c1ff;
+}
+.navct .bookshelf em{
+    background-position: 0 -136px;
+}
+.navct .category{
+    background-color: #02d26e;
+}
+.navct .category em{
+    background-position: 0 0;
+}
+.navct .redeem{
+    background-color: #4f8fd6;
+}
+.navct .redeem em{
+    background-position: 0 -170px;
+}
+.navct .buy{
+    background-color: #7cc416;
+}
+.navct .buy em{
+    background-position: 0 -204px;
+}
+.navct .down{
+    background-color: #f7942b;
+}
+.navct .down em{
+    background-position: 0 -238px;
+}
+
+
+/******************** 精品推荐 ********************/
+.u-area{
+    border-top: 1px solid #ccc;
+}
+
+.ttl3{
+    height: 50px;
+    position: relative;
+    margin: 0 10px;
+    line-height: 50px;
+}
+.ttl3 h3{
+    color: #4d4d4d;
+    font-size: 16px;
+}
+.ttl3 .more{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 12px;
+
+    color: #666;
+
+    background: url("../image/arr_right.png") right center no-repeat;
+    background-size: 8px 12px;
+}
+
+.u-list-col3 li{
+    width: 32%;
+    display: inline-block;
+    padding-bottom: 20px;
+
+    font-size: 12px;
+    line-height: 16px;
+}
+.u-list-col3 .u-bookitem a{
+    width: 88px;
+    min-height: 68px;
+    display: block;
+    margin: 0 auto;
+}
+.u-list-col3 .u-bookitem .cover{
+    width: 88px;
+    height: 117px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+.u-bookitem .cover img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
+.recommend .u-bookitem .title{
+    height: 32px;
+    margin: 5px 0 2px;
+    overflow: hidden;
+    color: #333;
+}
+.u-bookitem .author{
+    width: 100%;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #999;
+}
+.u-bookitem .author span{
+    margin-right: 10px;
+}
+
+.aimg{
+    height: 89px;
+    padding: 0 3%;
+}
+.aimg ul{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.aimg li{
+    width: 48%;
+    float: left;
+    padding-bottom: 12px;
+}
+.aimg li:nth-child(2n+1){
+    padding-right: 4%;
+}
+.aimg a{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.aimg a img{
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+

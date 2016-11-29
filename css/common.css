@@ -1,0 +1,287 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #f7f7f7;
+
+    font-size: 14px;
+    color: #333;
+    font-family: 微软雅黑;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+    outline: none;
+}
+
+.icon{
+    background: url("../image/icon.png") no-repeat;
+    background-size: 22px;
+
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+table{
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: grey;
+}
+
+
+/*头部*/
+.head-wrap{
+    width: 100%;
+    height: 56px;
+    position: relative;
+
+    background-color: #1dabc5;
+    box-sizing: border-box;
+}
+
+.h-act{
+    width: 107px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.h-search{
+    width: 56px;
+    height: 56px;
+    position: relative;
+    box-sizing: border-box;
+    padding:15px 0;
+    float: right;
+
+    line-height: 56px;
+}
+.h-search .a-search{
+    display: block;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+    background-position: 0 -23px;
+}
+
+/******************** footer ********************/
+.ft{
+    padding: 0 10px 20px;
+    margin: 0 auto;
+}
+.f-wrap{
+    color: #999;
+    line-height: 2em;
+    text-align: center;
+}
+.f-wrap a{
+    color: #999;
+}
+
+/******************** 搜索盖层 ********************/
+.search-form{
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+}
+
+.search-form .close{
+    width: 58px;
+    height: 56px;
+    position: absolute;
+    display: block;
+    top: -56px;
+    right: 0;
+
+    text-align: center;
+
+    background-color: #1687a4;
+    z-index: 9;
+}
+.icon-close{
+    width: 22px;
+    height: 22px;
+    display: block;
+    margin: 15px auto 0;
+    background: url("../image/icon.png");
+    background-position: 0 -67px;
+    background-size: 22px;
+}
+
+.form{
+    height: 34px;
+    position: relative;
+    padding: 10px 15px;
+    background-color: #1687a4;
+}
+.search-form input{
+    width: 100%;
+    height: 34px;
+    padding: 0 18px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    background-color: white;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #333;
+}
+.form .icon-search{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+    right: 23px;
+    top: 16px;
+    vertical-align: middle;
+
+    background: url("../image/icon.png");
+    background-size: 22px;
+    background-position: 0 -44px;
+}
+
+.hotsearch{
+    padding-bottom: 20px;
+}
+.hotsearch h4{
+    height: 44px;
+    padding: 0 15px;
+    line-height: 44px;
+
+    color: #999;
+    font-weight: 400;
+    border-bottom: 1px solid #bcbcbc;
+}
+.list-col1 li{
+    min-height: 30px;
+    line-height: 30px;
+    padding: 10px 12px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.search-ft{
+    margin: 0 auto;
+    padding: 0 10px 20px;
+
+    color: #999;
+    line-height: 14px;
+    text-align: center;
+}
+.search-ft p{
+    margin-bottom: 5px;
+}
+.search-ft a{
+    color: #999;
+}
+
+/******************** 导航 ********************/
+.navct-wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top:56px;
+    left: 0px;
+    z-index: 5;
+    background: rgba(0,0,0,0.5);
+}
+.navct{
+    width: 100%;
+    height: 219px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px 0 20px;
+    background-color: #f7f7f7;
+}
+.navct table{
+    width: 100%;
+}
+.navct td{
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}
+.navct td a{
+    width: 56px;
+    height: 45px;
+    display: block;
+
+    margin: 0 auto;
+    padding: 11px 0  0;
+    border-radius: 10px;
+}
+.navct em{
+    width: 34px;
+    height: 34px;
+    display: block;
+
+    margin: 0 auto;
+    background: url("../image/icon-nav.png") no-repeat;
+    background-size: 34px;
+}
+.navct .sale{
+    background-color: #ef4848;
+}
+.navct .sale em{
+    background-position: 0 -102px;
+}
+.navct .free{
+    background-color: #f7942b;
+}
+.navct .free em{
+    background-position: 0 -34px;
+}
+.navct .good{
+    background-color: #2ec8e4;
+}
+.navct .good em{
+    background-position: 0 -68px;
+}
+.navct .bookshelf{
+    background-color: #30c1ff;
+}
+.navct .bookshelf em{
+    background-position: 0 -136px;
+}
+.navct .category{
+    background-color: #02d26e;
+}
+.navct .category em{
+    background-position: 0 0;
+}
+.navct .redeem{
+    background-color: #4f8fd6;
+}
+.navct .redeem em{
+    background-position: 0 -170px;
+}
+.navct .buy{
+    background-color: #7cc416;
+}
+.navct .buy em{
+    background-position: 0 -204px;
+}
+.navct .down{
+    background-color: #f7942b;
+}
+.navct .down em{
+    background-position: 0 -238px;
+}

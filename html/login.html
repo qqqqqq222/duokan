@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="icon" href="../image/icon-logo.png/"/>
+    <link rel="stylesheet" href="../css/login.css"/>
+    <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <!-- 二维码-->
+    <div>
+        <a href="#" class="ercode"></a>
+    </div>
+
+    <!-- 主内容-->
+    <div class="layout">
+        <!-- logo-->
+        <div class="lgn-head">
+            <div class="logo-pic">
+                <img src="../image/mi.png" alt="mi-logo"/>
+            </div>
+            <div class="logo-title">
+                <p>小米账号登录</p>
+            </div>
+        </div>
+
+        <!-- form-->
+        <div class="lgnarea">
+            <form action="#" method="get" class="log-form">
+                <!-- 输入框-->
+                <div class="lgn-input">
+                    <label for="uname" class="labelbox lgn-user">
+                        <input type="text" id="uname" name="uname" placeholder="邮箱/手机号/小米账号"/>
+                    </label>
+                    <label for="pwd" class="labelbox lgn-pwd">
+                        <input type="text" id="pwd" name="pwd" placeholder="密码"/>
+                        <img src="../image/pwd.png" alt="密码不可见"/>
+                    </label>
+                </div>
+                <!-- 登录按钮-->
+                <div class="lgn-btn">
+                    <input type="submit" id="submit" value="立即登录"/>
+                </div>
+            </form>
+        </div>
+
+        <!-- 其他登录方式-->
+        <div class="lgn-other">
+            <fieldset class="oth-type-tit">
+                <legend class="oth-type-txt">其他方式登录</legend>
+            </fieldset>
+
+            <div class="oth-type-links">
+                <a href="#" class="icon-type btn-qq" title="QQ登录">
+                    <i class="lgn-icon lgn-icon-qq"></i>
+                </a>
+                <a href="#" class="icon-type btn-weibo" title="新浪微博登录">
+                    <i class="lgn-icon lgn-icon-weibo"></i>
+                </a>
+                <a href="#" class="icon-type btn-alipay" title="支付宝登录">
+                    <i class="lgn-icon lgn-icon-alipay"></i>
+                </a>
+                <a href="#" class="icon-type btn-wechat" title="微信登录">
+                    <i class="lgn-icon lgn-icon-wechat"></i>
+                </a>
+            </div>
+
+            <div class="n-links">
+                <a href="#" class="outer-link">注册小米账号</a>
+                <span>|</span>
+                <a href="#" class="outer-link">忘记密码？</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-->
+    <footer>
+        <ul class="lan-list">
+            <li><a href="#" class="current">简体</a>|</li>
+            <li><a href="#">繁体</a>|</li>
+            <li><a href="#">English</a>|</li>
+            <li><a href="#">常见问题</a></li>
+        </ul>
+        <p class="ft-info">
+            <span>
+                小米公司版权所有-京ICP备10046444-
+                <a href="#">
+                    <span>
+                        <img src="../image/ghs.png" alt="ghs"/>
+                    </span>
+                    京公网安备11010802020134号
+                </a>
+                -京ICP证110507号
+            </span>
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>

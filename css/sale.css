@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/********** 头部 *********/
+.goback{
+    height: 35px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 10px 13px;
+
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.goback:after{
+    width: 0px;
+    height: 30px;
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: 0;
+    border-right: 1px solid gainsboro;
+}
+
+.h-logo{
+    height: 35px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 10px 13px;
+
+    color: #fff;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.h-menu{
+    width: 50px;
+    height: 56px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding:15px 0;
+    float: left;
+
+    line-height: 56px;
+}
+.h-menu .a-quicknav{
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    background-position: 0 -147px;
+}
+
+
+/********** 图书列表 *********/
+.category-list{
+    position: relative;
+}
+.book-item{
+    position: relative;
+    padding: 10px 12px;
+    border-bottom: 1px solid #bcbcbc;
+
+    line-height: 20px;
+}
+.book-item .book{
+    min-height: 68px;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-pic{
+    width: 48px;
+    height: 64px;
+    display: inline-block;
+    float: left;
+    box-shadow: 1px 2px 4px rgba(0,0,0.3);
+}
+
+.book-info{
+    display: block;
+    margin: 0 50px 0 60px;
+
+    color: #666;
+    font-size: 12px;
+    line-height: 18px;
+}
+.book-info .title{
+    height: 20px;
+    margin: 5px 0 2px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: 16px;
+    color: #333;
+}
+.book-info .author{
+    width: 100%;
+    margin-bottom: 2px;
+    padding-right: 10px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #999;
+}
+
+.book-price{
+    height: 32px;
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 50%;
+    margin-top: -16px;
+
+    text-align: right;
+    font-size: 12px;
+    line-height: 16px;
+}
+.book-price em{
+    display: block;
+
+    font-weight: 400;
+    color: #4c9ee0;
+    font-style: normal;
+}
+.book-price del{
+    margin-left: 5px;
+    color: #999;
+}
+
+.u-page{
+    padding: 15px;
+
+    color: #666;
+    text-align: center;
+    background: #f6f6f6;
+}
+.u-page .u-btn{
+    width: 80px;
+    height: 32px;
+    display: inline-block;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 1px;
+
+    line-height: 32px;
+    color: #666;
+    text-align: center;
+    background: #fdfdfd;
+}
+.u-page .init{
+    background: #f6f6f6;
+    cursor: default;
+    color: #c1c1c1;
+}
+.u-page .num{
+    margin:  0 15px;
+}
